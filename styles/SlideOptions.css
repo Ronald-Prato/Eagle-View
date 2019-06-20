@@ -1,0 +1,19 @@
+.slide-options-container {
+    height: 100vh;
+    width: 100%;
+    overflow: scroll;
+    box-sizing: border-box;
+}
+.ant-menu-submenu-title span {
+    display: flex !important;
+    align-items: center !important;
+}
+::-webkit-scrollbar {
+  width: 20px;
+}
+.button-option-container {
+    margin-bottom: .5em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}

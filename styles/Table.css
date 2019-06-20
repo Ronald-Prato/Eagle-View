@@ -1,0 +1,23 @@
+.table-container {
+    width: 100%;
+    padding: 1em;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    position: relative
+}
+
+
+
+.ant-spin-nested-loading {
+    transform: scale(.63) !important;
+}
+.ant-table-wrapper {
+    width: 0 !important;
+}
+.ant-pagination, .ant-table-pagination {
+    display: none !important;
+}
